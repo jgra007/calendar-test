@@ -147,10 +147,23 @@ export default function Home() {
         </div>
         <button style={{ marginTop: "10px" }} onClick={handleAddEvent}>
           Add Event
+          
         </button>
+
+        </button>
+        <button style={{ marginTop: "10px" }} onClick={handleViewEvent}>
+          view Event
+        </button>
+    
+        </button>
+        <button style={{ marginTop: "10px" }} onClick={handleEditEvent}>
+          Edit Event
+        </button>
+
         <button style={{ marginTop: "10px" }} onClick={handleDeleteEvent}>
           Delete Event
         </button>
+  
       </div>
       <Calendar
         localizer={localizer}
